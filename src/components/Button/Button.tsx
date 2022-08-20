@@ -1,4 +1,4 @@
-import { container, background } from "./button.css";
+import { container, background } from "./Button.css";
 
 export interface ButtonProps {
   variant: "primary" | "secondary";

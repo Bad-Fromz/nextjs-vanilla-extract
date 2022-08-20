@@ -1,10 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import { Button } from "./Button";
-import { container, background } from "./button.css";
 
-import "@testing-library/jest-dom";
-
-describe("Home", () => {
+describe("components/Button", () => {
   it("renders a button components", () => {
     render(<Button variant="primary" label="Button" />);
     const button = screen.getByText("Button");
